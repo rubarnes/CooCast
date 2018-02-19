@@ -2,7 +2,7 @@
   "name": "coocast",
   "version": "1.0.0",
   "description": "A wee podcast app",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "electron": "^1.8.2",
