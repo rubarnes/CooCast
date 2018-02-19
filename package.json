@@ -5,13 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "electron": "^1.8.2",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",
     "popper.js": "^1.12.9"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
