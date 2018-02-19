@@ -22,5 +22,9 @@ CooCast is a wee podcast app for managing and listening to your podcasts.
 3. Sharing your subscribed podcasts and other data with friends
 4. Mac and Linux versions
 5. moar
+<<<<<<< HEAD
 ## But why?
+=======
+##But why?
+>>>>>>> 47b82a157da4def81732fba2fd85a1fa433fe9e8
 Because I like software development, learning new technologies, and [Heilan Coos](https://en.wikipedia.org/wiki/Highland_cattle).
