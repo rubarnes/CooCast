@@ -1,0 +1,31 @@
+{
+  "name": "coocast",
+  "version": "1.0.0",
+  "description": "A wee podcast app",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubarnes/CooCast.git"
+  },
+  "keywords": [
+    "podcast",
+    "coocast",
+    "streaming"
+  ],
+  "author": "Ruairidh Barnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubarnes/CooCast/issues"
+  },
+  "homepage": "https://github.com/rubarnes/CooCast#readme"
+}
