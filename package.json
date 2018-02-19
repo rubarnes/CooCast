@@ -9,9 +9,12 @@
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron-packager": "^11.0.1"
+  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager ."
   },
   "repository": {
     "type": "git",
