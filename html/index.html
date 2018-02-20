@@ -1,1 +1,23 @@
-Hello
+<html>
+<div id="parentElement">
+   <span id="childElement">foo bar</span>
+</div>
+</html>
+<script src="../node_modules/rss-parser/dist/rss-parser.min.js"></script>
+<script>
+
+// Note: some RSS feeds can't be loaded in the browser due to CORS security.
+// To get around this, you can use a proxy.
+const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
+var parentDiv = document.getElementById("childElement").parentNode;
+
+var newNode = document.getElementById("childElement");
+let parser = new RSSParser();
+parser.parseURL('https://www.reddit.com/.rss', function(err, feed) {
+  console.log(feed.title);
+  feed.items.forEach(function(entry) {
+    parentDiv.insertBefore(document.createTextNode('<p>'+entry.title + ':' + entry.link+'</p>'),newNode);
+  })
+})
+
+</script>
