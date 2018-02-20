@@ -7,7 +7,8 @@
     "bootstrap": "^4.0.0",
     "electron": "^1.8.2",
     "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
+    "popper.js": "^1.12.9",
+    "rss-parser": "^3.1.1"
   },
   "devDependencies": {
     "electron-packager": "^11.0.1"
