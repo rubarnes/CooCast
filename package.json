@@ -2,16 +2,20 @@
   "name": "coocast",
   "version": "1.0.0",
   "description": "A wee podcast app",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "electron": "^1.8.2",
     "jquery": "^3.3.1",
-    "popper": "^1.0.1",
-    "popper.js": "^1.12.9"
+    "popper.js": "^1.12.9",
+    "rss-parser": "^3.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron-packager": "^11.0.1"
+  },
   "scripts": {
-    "test": "test"
+    "start": "electron .",
+    "build": "electron-packager ."
   },
   "repository": {
     "type": "git",
